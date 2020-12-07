@@ -1,0 +1,57 @@
+body {
+	background-image: url("baground.jpg"),url("vektor.png");
+	background-repeat: no-repeat,repeat;
+	background-attachment: fixed,;
+	background-position: 50% 50%;
+}
+
+h1 {
+	text-align: center;
+	font-family: monospace;
+	color: #DC143C;
+	font-size: 25pt;
+	background-color:#FAEBD7;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+h3 {
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+p {
+	font-size: 12pt;
+	line-height: 150%;
+	padding:10px;
+	background-color: rgba(242,242,242,0.8);
+	width: 650px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.menu {
+	text-align: center;
+	background-color: #EDF3F3;
+    font-family: Arial, Helvetica;
+    font-size:20px;
+    padding-top: 3pt;
+}
+
+
+.button {
+	background-color: #e5e5e5;
+	
+	border-color: black;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: #bababa;
+}
+
